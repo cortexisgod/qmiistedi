@@ -3,7 +3,7 @@ const client = global.client = new Client({fetchAllMembers: true});
 const ayarlar = require('./ayarlar.json');
 const fs = require('fs');
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://aptalbotcu12216:aptalbotcu12216@cluster0.7kyg4.mongodb.net/corttesasdy?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});// Mongo connect bağlantısı.
+mongoose.connect('MONGO DB', {useNewUrlParser: true, useUnifiedTopology: true});// Mongo connect bağlantısı.
 const Database = require("./models/role.js");
 
 
